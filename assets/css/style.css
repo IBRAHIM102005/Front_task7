@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+div{
+    text-align: center;
+    background-color:#fff;
+}
+.firstWrap , .secondWrap{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    gap: 30px;
+    padding-top: 50px ;
+}
+.card{
+    border: 1px solid #dddddd;
+    height: max-content;
+    width:200px;
+    border-radius: 7px;
+    padding: 20px 0px;
+    background-color:#fff;
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.49);
+}
+.card:hover , .sign_Up:hover{
+    box-shadow: 0px 0px 24px 5px rgba(24, 108, 235, 0.9);
+    transition: .7s;
+}
+.name{
+    color:#333333;
+    font-size: 25px;
+    font-weight: 600;
+}
+.qiymet{
+    color: #027bff;
+    font-size: 23px;
+    padding: 8px 0px 13px 0px;
+    font-weight: 500;
+}
+.info{
+    color: #555555;
+    font-size: 17px;
+}
+.sign_Up{
+    background-color:#027bff;
+    color: white;
+    margin-top:18px ;
+    border-radius: 4px;
+    border: none;
+    width: 70px;
+    height: 30px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+.sign_Up:focus{
+    transition: .5s;
+    background-color: rgb(32, 145, 10);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.9);
+    height: 40px;
+    width: 90px;
+}
+.Sandbox{
+    background-color: #151515;
+    border-radius: 3px;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border: 0.5px solid #343434;
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 1rem;
+}
+.Sandbox:hover{
+    box-shadow: 0px 0px 24px 5px rgba(43, 47, 53, 0.9);
+    transition: .4s;
+}
+.Sandbox:focus{
+    transition: 1s;
+    height: 50px;
+    width: 200px;
+    
+    
+}
